@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 30x
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  color: #336481;
 }
 
 /* Simple Responsive Framework. */
@@ -16,85 +19,45 @@ h1 {
   text-align: center;
 }
 
-section {
-  background-color: #ECBAD1;
+section div {
+  background-color: #F8A287;
+  border: 1px solid black;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
+  padding: 5px;
   position: relative;
 }
 
 p {
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 
-.section {
-  border: 3px solid black;
-}
-
-#p1a {
+.header {
   font-size: 1.25em;
   position: absolute;
   top: 0px;
   right: 0px;
-  margin-top: 0;
-  background-color: #00FFFF;
+  background-color: #F8DA87;
   width: 100px;
   text-align: center;
-  border: 1px solid green;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
-#p2a {
-  font-size: 1.25em;  
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  margin-top: 0;
-  background-color: #00FFFF;
-  width: 100px;
-  text-align: center;
-  border: 1px solid green;
-}
-
-#p3a {
-  font-size: 1.25em;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  margin-top: 0;
-  background-color: #00FFFF;
-  width: 100px;
-  text-align: center;
-  border: 1px solid green;
-}
-
-#p1b {
-  margin-top: 50px;
+.content {
+  position: relative;
+  top: 35px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
-}
-
-#p2b {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-#p3b {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
+  padding: 50px, 0, 0, 0;
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -138,7 +101,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -182,7 +144,6 @@ p {
 @media (max-width: 767px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-xs-1 {
     width: 8.33%;
