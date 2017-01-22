@@ -26,6 +26,8 @@ section div {
   margin-right: 5px;
   margin-bottom: 10px;
   padding: 5px;
+  height: 200px;
+  overflow: auto;
   position: relative;
 }
 
